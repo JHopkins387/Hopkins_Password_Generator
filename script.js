@@ -28,7 +28,7 @@ function writePassword() {
   }
   //Makes sure that the number is no more than 128
   if (length > 128) {
-    alert('The password is too long, it must be 128 or less characters'.);
+    alert('The password is too long, it must be 128 or less characters');
     return null;
   }
   //Stores if specific types of characters are allowd to be used
