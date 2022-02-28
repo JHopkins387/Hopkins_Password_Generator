@@ -1,4 +1,11 @@
-// Assignment code here
+// Global Values
+
+let upperCaps = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let lowerCaps = 'abcdefghijklmnopqrstubwxyz';
+let specialCharacter = "!<>{}&^%$#@^&*()/:;";
+let numbers = '0123456789';
+let allCharacter = '';
+let length = '';
 
 
 // Get references to the #generate element
