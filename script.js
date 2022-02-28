@@ -1,11 +1,11 @@
 // Global Values
 
-let upperCaps = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-let lowerCaps = "abcdefghijklmnopqrstubwxyz";
-let specialCharacter = "!<>{}&^%$#@^&*()/:;";
-let numbers = "0123456789";
-let allCharacter = "";
-let length = "";
+let upperCaps = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+let lowerCaps = 'abcdefghijklmnopqrstubwxyz';
+let specialCharacter = '!<>{}&^%$#@^&*()/:;';
+let numbers = '0123456789';
+let allCharacter = '';
+let length = '';
 
 
 // Get references to the #generate element
@@ -28,7 +28,7 @@ function writePassword() {
   }
   //Makes sure that the number is no more than 128
   if (length > 128) {
-    alert('The password is too long, it must be 128 or less characters');
+    alert('The password is too long, it must be 128 or less characters.');
     return null;
   }
   //Stores if specific types of characters are allowd to be used
